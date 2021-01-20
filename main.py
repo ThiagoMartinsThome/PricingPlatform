@@ -66,7 +66,7 @@ def create_figure(dff):
 
 app.layout = html.Div([
     dcc.Store(id='memory-output',
-              storage_type='session'),
+              storage_type='memory'),
     dcc.Upload(
         id='upload-data',
         children=html.Div([
