@@ -1,8 +1,6 @@
-import collections
 import dash
 import pandas as pd
 import numpy as np
-
 import base64
 import datetime as dt
 import io
@@ -17,7 +15,7 @@ import dash_table
 import plotly.express as px
 
 app = dash.Dash(__name__)
-server = app.server()
+server = app.server
 
 
 days = [1, 2, 3, 4, 5, 6, 7, 14, 21]
